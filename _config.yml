@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+name: Familie Mestermann 
+markdown: kramdown
+highlighter: rouge # pygments or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:year/:month/:day/:title:output_ext/index.html
+themeBGimage: https://template.pc-cdn.de/content/themes/creativeily/assets/img/header.jpeg 
