@@ -1,6 +1,6 @@
-name: Familie Mestermann 
+name: Familie Pfeiffer
 markdown: kramdown
 highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:year/:month/:day/:title:output_ext/index.html
-themeBGimage: https://template.pc-cdn.de/content/themes/creativeily/assets/img/header.jpeg 
+themeBGimage: https://template.pc-cdn.de/content/themes/fullscreenly/assets/img/header.jpeg 
