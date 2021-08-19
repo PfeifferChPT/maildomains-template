@@ -3,4 +3,4 @@ markdown: kramdown
 highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:year/:month/:day/:title:output_ext/index.html
-themeBGimage: https://template.pc-cdn.de/assetss/bg-images/Rechenzentrum_Detail_Colocation_Farbe_orange_auf_blau_ändern.jpg
+themeBGimage: https://template.pc-cdn.de/assets/bg-images/Rechenzentrum_Detail_Colocation_Farbe_orange_auf_blau_ändern.jpg
