@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<title>{{ site.name }} &#8211; Mail-Domain der {{ site.name }}</title>
+<title>{{ page.title | default: site.name }} &#8211; Mail-Domain von {{ page.title | default: site.name }}</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<script type="text/javascript">
@@ -23,10 +23,7 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }</style>
-	        <style type="text/css">#wpadminbar #wp-admin-bar-my-networks > .ab-item:first-child:before {
-                content: "\f325";
-                top: 3px;
-            }</style>
+
         <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
 <link rel="stylesheet" id="fullscreenly-parent-style-css" href="https://template.pc-cdn.de/content/themes/creativeily/style.css" type="text/css" media="all">
@@ -40,20 +37,15 @@ img.emoji {
 <script type="text/javascript" src="https://template.pc-cdn.de/content/themes/creativeily/assets/js/creativeily.js?ver=5.7.2" id="creativeily-script-js"></script>
 <script type="text/javascript" src="https://template.pc-cdn.de/content/themes/creativeily/assets/js/accessibility.js?ver=5.7.2" id="creativeily-accessibility-nav-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/7">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="Jekyll">
-<link rel="shortlink" href="https://wp.me/PaIGxG-7">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F&#038;format=xml">
 
 <!-- Easy WP Meta Description -->
-<meta name="description" content="E-Mail-Domain der {{ site.name }}. Es gibt keinen Inhalt.">
+<meta name="description" content="E-Mail-Domain von {{ page.title | default: site.name }}. Es gibt keinen Inhalt.">
 <!-- /Easy WP Meta Description -->
 
-				<link rel="canonical" href="/">
+<link rel="canonical" href="/">
 <style type="text/css">img#wpstats{display:none}</style>
-		<link rel="pingback" href="/xmlrpc.php">
+
   <style type="text/css" id="custom-theme-css">body {
     font-style: normal;
     font-weight: 400;
@@ -154,13 +146,13 @@ img.emoji {
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style>		<style type="text/css">.image-creativeily-header {
-			background: #222 url({{ site.themeBGimage }}) center center no-repeat;
+			background: #222 url({{ page.themeBGimage | default: site.themeBGimage }}) center center no-repeat;
 			}
 		.header .info h1, .header .meta p {
 			color: #fff;
 		}
 		
-		{{ site.themeBGimage }}"
+		{{ page.themeBGimage | default: site.themeBGimage }}"
 				.header .info h1, .header .meta p {
 			color: #fff;
 		}</style>
@@ -176,13 +168,13 @@ img.emoji {
 		
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ site.name }}">
-<meta property="og:description" content="Mail-Domain der {{ site.name }}">
+<meta property="og:title" content="{{ page.title | default: site.name }}">
+<meta property="og:description" content="Mail-Domain von {{ page.title | default: site.name }}">
 <meta property="og:url" content="/">
-<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:site_name" content="{{ page.title | default: site.name }}">
 <meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
 <meta property="og:locale" content="de_DE">
-<meta name="twitter:text:title" content="E-Mail Domain der {{ site.name }}">
+<meta name="twitter:text:title" content="E-Mail Domain von {{ page.title | default: site.name }}">
 <meta name="twitter:card" content="summary">
 
 <!-- End Jetpack Open Graph Tags -->
@@ -204,7 +196,7 @@ img.emoji {
   <div class="header-top">
       <!-- logo -->
 
-          <a href="/" rel="home" class="logo">{{ site.name }}</a>
+          <a href="/" rel="home" class="logo">{{ page.title | default: site.name }}</a>
     
               	<!-- Mobile Bar & Menu Icon -->
 	
@@ -229,7 +221,7 @@ img.emoji {
 </div>
 
   <div class="info">
-    <h1>E-Mail Domain der {{ site.name }}</h1>
+    <h1>E-Mail Domain von {{ page.title | default: site.name }}</h1>
 
         
   
@@ -284,7 +276,7 @@ img.emoji {
 			</div>
 
 		<div class="site-info">
-			&copy;2021 {{ site.name }}			<!-- Delete below lines to remove copyright from footer -->
+			&copy;2021 {{ page.title | default: site.name }}			<!-- Delete below lines to remove copyright from footer -->
 			<span class="footer-info-right">
 				 | Hosted on GitHub
 			</span>
