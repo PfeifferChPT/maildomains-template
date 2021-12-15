@@ -3,17 +3,18 @@
 	<!-- Delete below lines to remove copyright from footer -->
 	<span class="footer-info-right">
 	 | Hosted on <i class="fab fa-github"></i> <a href="{{ site.github.repository_url }}" alt="{{ site.github.repository_name }}" Title="{{ site.github.repository_name }}">GitHub</a>
-	</span>
+	<hr>
+		<a href="https://pc-cdn.statuspage.io/">
+		<i class="fas fa-wifi"></i> Statuspage</a>
+		<br>
+		<statusbanner onload="statusEmbedTest()">
+		<script src="https://pc-cdn.statuspage.io/embed/script.js"></script>
+		</statusbanner>
+		<div class="meta"> <!-- the colored dot gets an extra class and description text gets inserted via javascript -->
+		<a href="http://acmeapico.statuspage.io" target="_blank"> <span class="color-dot"></span> <span class="color-description\></span> 
+		</a>
+		</div>
+</span>
 	<!-- Delete above lines to remove copyright from footer -->
 </div>
-<hr>
-<a href="https://pc-cdn.statuspage.io/" style="text-decoration:none; color:#fff">
-<i class="fas fa-wifi"></i> Statuspage</a>
-<br>
-<statusbanner onload="statusEmbedTest()">
-<script src="https://pc-cdn.statuspage.io/embed/script.js"></script>
-</statusbanner>
-<div class="meta"> <!-- the colored dot gets an extra class and description text gets inserted via javascript -->
-<a href="http://acmeapico.statuspage.io" target="_blank" style="text-decoration:none; color:#fff"> <span class="color-dot"></span> <span class="color-description\></span> 
-</a>
-</div>
+
