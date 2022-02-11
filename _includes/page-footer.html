@@ -1,8 +1,6 @@
 <div class="site-info">
 	&copy;{{ site.since | default: "2021" }} - {{ 'now' | date: "%Y" }} {{ page.title | default: site.name }}
-	<span class="footer-info-right">
-	 &nbsp;|&nbsp;<a href="{{ site.github.repository_url }}" alt="{{ site.github.repository_name }}" Title="{{ site.github.repository_name }}"><img src="https://img.shields.io/badge/Hosted%20on%C2%A0%C2%A0-GitHub%20Pages-%23222222?logo=githubpages" alt="GitHub Pages"></a>
-	 &nbsp;|&nbsp;<a href="https://pc-cdn.statuspage.io/">
+	<span class="footer-info-right">&nbsp;|&nbsp;<a href="{{ site.github.repository_url }}" alt="{{ site.github.repository_name }}" Title="{{ site.github.repository_name }}"><img src="https://img.shields.io/badge/Hosted%20on%C2%A0%C2%A0-GitHub%20Pages-%23222222?logo=githubpages" alt="GitHub Pages"></a>&nbsp;|&nbsp;<a href="https://pc-cdn.statuspage.io/">
 			<img src="https://img.shields.io/badge/Status%C3%BCbersicht%20auf%C2%A0%C2%A0-Statuspage-%23172B4D?logo=Statuspage" alt="Statuspage">
 			<br>
 			<statusbanner onload="statusEmbedTest()">
