@@ -1,0 +1,22 @@
+@import url("https://css.fonts.pc-cdn.eu/css/?family=Roboto");
+
+@import url("https://css.fonts.pc-cdn.eu/css-cnc/?family=material-icons-outlined");
+
+/** 
+#Animated BottomBar Experiment (CSS Transitions only)
+(C) by @chrisbautista @codespud
+
+animated tabs using css transitions only.
+I wanted to test how much we can accomplish with just CSS transitions. No keyframe animations at all.
+**/
+
+:root {
+  --accent-color: #1fa8f5;
+  --accent-color-fg: #fefefe;
+  --backdrop-color: #89d4fe;
+  --app-content-background-color: #c0d8ec;
+  --inset-shadow: rgba(7, 43, 74, 0.3);
+  --outset-shadow: rgba(223, 240, 255, 0.25);
+  --clay-box-shadow: rgba(7, 43, 74, 0.3);
+  --clay-background-color: #c0d8ec;
+  --clay-fg-color: #444;
